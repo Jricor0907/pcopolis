@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right top, #419fe4, #53a1e5, #61a2e6, #6ea4e6, #79a6e7, #73aeed, #6eb7f3, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  #cpu {
+    margin: 10px;
+  }
+  
+  #cpu img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #cpu p {
+    margin: 5px 0;
+  }
+  
+  #cpu ul {
+    margin-top: 5px;
+    list-style-type: circle;
+  }
+  
+  #cpu li {
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  .table {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cell {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .cell img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .cell h3 {
+    margin-top: 0;
+  }
+  
+  .cell p {
+    margin-bottom: 0;
+  }
+
+  .table-img {
+    max-width: 250px;
+    height: auto;
+  }
+  
+  .logo {
+    max-width: 250px;
+    height: auto;
+  }

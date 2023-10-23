@@ -1,0 +1,74 @@
+
+.Top_Logo {text-align: left; color: black;}
+.Login {text-align: right}
+.Bottom_Logo {color: black; bottom: 5px; text-align: right;}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+}
+
+.product img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.product h2 {
+    font-size: 1.2em;
+}
+
+.product button {
+    font-size: 1em;
+}
+
+.contact {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-color: #FFFDD0;
+    --font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: var(--primary-color);
+    font-family: var(--font-family);
+  }
+
+  .product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .product h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .product button {
+    background-color: #000;
+    color: #FFF;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .product button:hover {
+    background-color: #FFF;
+    color: #000;
+  }
+  
